@@ -18,11 +18,11 @@ else:
 setup(
     name='mobbage',
 
-    version='0.3',
+    version='0.4',
 
     description='A HTTP stress test and benchmark tool',
     long_description=long_description,
-    url='https://github.com/redfin/mobbage',
+    url='https://github.com/mjasin/mobbage',
 
     author='Eric Schwimmer',
     author_email='git@nerdvana.org',
