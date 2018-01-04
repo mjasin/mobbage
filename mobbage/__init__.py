@@ -315,7 +315,7 @@ class WorkerQueue():
         header_dict = {}
         for kv in header_list:
             try:
-                key, val = map(strip, kv.split(':'))
+                key, val = map(str.strip, kv.split(':'))
                 header_dict[key.lower()] = val 
             except:
                 raise Exception(
