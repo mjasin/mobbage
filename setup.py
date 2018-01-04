@@ -18,7 +18,7 @@ else:
 setup(
     name='mobbage',
 
-    version='0.4',
+    version='0.5',
 
     description='A HTTP stress test and benchmark tool',
     long_description=long_description,
